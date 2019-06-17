@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5933b107-b9e0-40d2-9172-370ed43ba4fa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/python项目1/www/orm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习项目1/orm模型理解.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习项目1/元类与type函数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习项目1/网络代理的爬取.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,11 +59,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/练习项目1/orm模型理解.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1262">
-              <caret line="71" column="32" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
+            <state relative-caret-position="660">
+              <caret line="63" column="45" lean-forward="true" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/练习项目1/网络代理的爬取.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -104,10 +111,11 @@
         <option value="$PROJECT_DIR$/练习项目1/.idea/元类与type函数.py" />
         <option value="$PROJECT_DIR$/练习项目1/元类与type函数.py" />
         <option value="$PROJECT_DIR$/练习项目1/orm模型理解.py" />
+        <option value="$PROJECT_DIR$/练习项目1/网络代理的爬取.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-18" />
     <option name="width" value="2576" />
@@ -390,14 +398,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1426" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49875313" visible="true" weight="0.10323089" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49875313" visible="true" weight="0.10323089" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50124687" side_tool="true" weight="0.10323089" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32946634" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49921197" visible="true" weight="0.2575406" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49921197" weight="0.2575406" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3217324" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -696,13 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/练习项目1/元类与type函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/825591052/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -731,10 +731,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/练习项目1/元类与type函数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/练习项目1/orm模型理解.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1262">
-          <caret line="71" column="32" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
+        <state relative-caret-position="660">
+          <caret line="63" column="45" lean-forward="true" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/练习项目1/网络代理的爬取.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
