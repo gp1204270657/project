@@ -232,3 +232,4 @@ class Model(dict):
         rows=await execute(self._delete_,args)
         if rows !=1:
             logging.warn("failed to delete recode : affected rows :%s" % rows)
+            
