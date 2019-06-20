@@ -208,27 +208,3 @@ class Model(dict):
         if len(rs) == 0:
             return None
         return cls(**rs[0])
-
-#创建Model类的实例
-class Model(dict):
-    ...
-    async def save(self):
-        args=list(map(self.getValusOrDefault,self._fields_))
-        args.append(self.getValusOrDefault(self._primary_key_))
-        rows=await execute(self._insert_,args)
-        if rows !=1:
-            logging.warn("failed to insert recode : affected rows :%s"% rows)
-
-
-    async def update(self):
-        args=list(map(self.getValus,self._fields_))
-        args.append(self.getValus(self._primary_key_))
-        rows=await execute(self._update_,args)
-        if rows !=1:
-            logging.warn("failed to update recode : affected rows :%s"% rows)
-
-    async def remove(self):
-        args=[self.getValus(self._primary_key_)]
-        rows=await execute(self._delete_,args)
-        if rows !=1:
-            logging.warn("failed to delete recode : affected rows :%s" % rows)
