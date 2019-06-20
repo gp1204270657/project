@@ -6,7 +6,6 @@ import argparse
 # 创建解析对象
 parse = argparse.ArgumentParser()
 # 添加要解析的命令行参数
-# parse.add_argument()
 # 定义输入，输出文件，文件的高度与宽度
 # file=open('D:\/test\/testpng.PNG','r')
 parse.add_argument('-file')  # 输入文件
@@ -28,7 +27,7 @@ OUTPUT = arg.output
 acsill_char = list("a!@#!%^#$^*()$%^shajncaljgmc,zxlc[p.v/,';]lpgf[zlkd[q,f;,+_vndjhhds")
 
 
-# 讲RGB转换为字符
+# 讲RGB转换为字符,设置灰度256
 def get_char(r, g, b, alpha=256):
     # 判断alpha的值
     if alpha == 0:
