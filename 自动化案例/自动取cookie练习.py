@@ -3,6 +3,7 @@ from selenium import webdriver
 import time
 
 bs = webdriver.Chrome()
+# bs=webdriver.Firefox()
 bs.maximize_window()
 url = "http://www.yuexing.com"
 bs.get(url)
