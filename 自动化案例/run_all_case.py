@@ -10,8 +10,8 @@ def run_all():
     #通过discover方法遍历以test开头的文件
     discover=unittest.defaultTestLoader.discover(case_dir,pattern='test_ban*.py',top_level_dir=None)
 
-    for tset_Suit in discover:
-        testcase.addTest(tset_Suit)
+    for test_Suit in discover:
+        testcase.addTest(test_Suit)
     #返回一个集合
     return testcase
 
