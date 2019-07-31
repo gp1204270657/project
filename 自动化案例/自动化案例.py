@@ -11,13 +11,11 @@ bs=webdriver.Chrome()
 # bs.find_element_by_id("su").click()
 # time.sleep(2)
 # # 将页面滚动条拖到底部
-# down=bs.find_element_by_xpath("//*[@id='page']/a[1]/span[2]")
-# ActionChains(bs).move_to_element(down).perform()
 # js="var q=document.documentElement.scrollTop=10000"
 # bs.execute_script(js)
 # print(1)
 # time.sleep(3)
-# 将滚动条移动到页面的顶部
+# # 将滚动条移动到页面的顶部
 # js_="var q=document.documentElement.scrollTop=0"
 # bs.execute_script(js_)
 # print(2)
